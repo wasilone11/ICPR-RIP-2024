@@ -5,3 +5,4 @@ We provide two Colab runnable notebooks (Baseline_Single_View and Baseline_MV_ea
 It provides a step by step description of the steps involved starting from feature extraction using a VGG16 backbone, to an RNN based classification model. We provide the extracted features using ResNet50 and R(2+1)D as well.
 ### Baseline_MV_early_fusion
 Does concatenation (early fusion) of features from Front, Right, and Left Views and then follows the same steps as Baseline_Single_View. Other fusion methods like channel-wise fusion (commented out in the notebook) can be used as well.
+- Note: The video features provided here are from the 500 videos that are part of the train data. The 400:100 train:test split is only for baseline purpose.
