@@ -14,6 +14,9 @@ The Dataset features can be downloaded from here: https://mobility.iiit.ac.in/ic
 - The dataset structure of the training set consists of three subfolders, namely, frontal_view, left_side_mirror_view, right_side_mirror_view. Each of these subfolders have six maneuver classes (i.e., label folders), namely, Left Lane Change, Right Lane Change, Left Turn, Right Turn, Slow-Stop, Straight. The label folders have maneuver video features respectively. For example, there are 29 video features of maneuver left lane change in Left Lane Change folder.
 - For Task 1, frontal_view video features needs to be used and for Task 2, all three views i.e., frontal_view, left_side_mirror_view and right_side_mirror_view video features needs to be used in developing the model.
 
+## Evaluation Metrics
+The participants are required to output maneuvers classes for each video feature. We evaluate RIP with two ranking metrics for _Task 1_ and _Task 2_: the **classification accuracy**, handling the driving maneuvers as classes, and the **F1** score for detecting the maneuvers (i.e. the harmonic mean of the precision and recall). More details on evaluation metrics: https://mobility.iiit.ac.in/icpr_2024_rip/dataset.html
+
 ## References
 
 ### VGG-16
